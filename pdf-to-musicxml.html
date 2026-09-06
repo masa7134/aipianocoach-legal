@@ -16,12 +16,13 @@
 <h1>PDF から MusicXML を作る方法</h1>
 <p>iPad アプリ「AI Piano Coach」は、<strong>MusicXML 形式</strong>（ファイル名の末尾が .musicxml または .xml）の楽譜を読み込みます。PDF や紙の楽譜しかお持ちでない場合は、次の手順で MusicXML に変換してから取り込んでください。</p>
 
-<h2>1. 楽譜作成ソフトで開く</h2>
-<p>PDF の楽譜は、無料の楽譜作成ソフト <a href="https://musescore.org/ja">MuseScore</a> で読み込めます。MuseScore を開き、メニューの「ファイル」→「インポート」から PDF を選びます。読み取りは外部サービスを通じて行われ、少し時間がかかります。</p>
-<p>Dorico・Sibelius・Finale などの楽譜作成ソフトで作った楽譜をお持ちの場合は、そのソフトでそのまま開いてください。</p>
+<h2>1. 楽譜認識アプリで PDF や紙の楽譜を読み取る</h2>
+<p>PDF や紙の楽譜を音符のデータにするには、楽譜認識（OMR）アプリが必要です。たとえば <a href="https://www.playscore.co/">PlayScore 2</a>（iPad / iPhone / Android）は、紙の楽譜をカメラで撮影するか PDF を読み込んで認識し、MusicXML で書き出せます。</p>
+<p>MuseScore.com にも PDF を変換する Web サービスがありますが、MuseScore.com のアカウントが必要で、無料で使えるのは 1 日 1 回まで、認識の精度も PDF によってばらつきます（2026 年 9 月時点）。楽譜作成ソフトの MuseScore 自体には PDF を読み取る機能はありません。</p>
+<p>Dorico・Sibelius・Finale などの楽譜作成ソフトで作った楽譜をお持ちの場合は、認識は不要です。そのソフトで開いて手順 2 へ進んでください。</p>
 
-<h2>2. 内容を確認して MusicXML で書き出す</h2>
-<p>PDF からの自動変換には、音符・休符・臨時記号の読み違いが混じることがあります。元の楽譜と見比べて直してから書き出してください。</p>
+<h2>2. 楽譜作成ソフトで内容を確認し、MusicXML で書き出す</h2>
+<p>楽譜認識の結果には、音符・休符・臨時記号の読み違いが混じります。認識アプリから書き出した MusicXML を無料の楽譜作成ソフト <a href="https://musescore.org/ja">MuseScore</a> などで開き、元の楽譜と見比べて直してから書き出し直してください。</p>
 <p>書き出しは「ファイル」→「エクスポート」で <strong>MusicXML</strong> を選びます。形式は<strong>非圧縮の .musicxml または .xml</strong> にしてください。圧縮形式の .mxl は本アプリでは読み込めません。</p>
 
 <h2>3. iPad に保存して取り込む</h2>
@@ -34,7 +35,7 @@
 <p>開発者連絡先: masa7134@gmail.com</p>
 
 <footer>
-<p>公開日: 2026年9月6日</p>
+<p>公開日: 2026年9月6日（同日改訂）</p>
 <p>本ページは随時更新します。</p>
 </footer>
 </body>

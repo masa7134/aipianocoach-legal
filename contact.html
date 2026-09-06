@@ -19,7 +19,7 @@
 <h1>お問い合わせ・ご意見・バグ報告</h1>
 <p>iPad アプリ「AI Piano Coach」へのご意見・ご要望・不具合のご報告は、下のボタンから開くフォームで受け付けています。送信に Google アカウントは必要ありません。</p>
 
-<a id="open-form" class="button" href="https://docs.google.com/forms/d/e/FORM_ID_PLACEHOLDER/viewform">フォームを開く</a>
+<a id="open-form" class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSe-Fe7RLv5t6FtwqoGMIsWEo8HdYtpBpwdCaSGuS5j3Cz4cSA/viewform">フォームを開く</a>
 
 <p class="note">フォームの「環境」欄には、アプリの設定画面からこのページを開いた場合、お使いの環境が自動で入ります：<br>
 <span id="env-text" class="env">（アプリから開くと、ここにアプリの版数・iPadOS の版数・機種が表示されます）</span></p>
@@ -46,9 +46,9 @@
 (function () {
   // アプリの設定画面が付けるクエリ: ?app=1.0 (1)&os=iPadOS 26.5&device=iPad16,3
   // Google フォームの「事前入力した URL」形式で「環境」欄に入れる。
-  // FORM_ID_PLACEHOLDER / ENV_ENTRY_PLACEHOLDER はフォーム作成後に実際の値へ置き換える。
-  var FORM_URL = "https://docs.google.com/forms/d/e/FORM_ID_PLACEHOLDER/viewform";
-  var ENV_ENTRY = "ENV_ENTRY_PLACEHOLDER"; // 例: "entry.1234567890"
+  // 1FAIpQLSe-Fe7RLv5t6FtwqoGMIsWEo8HdYtpBpwdCaSGuS5j3Cz4cSA / entry.1158351253 はフォーム作成後に実際の値へ置き換える。
+  var FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSe-Fe7RLv5t6FtwqoGMIsWEo8HdYtpBpwdCaSGuS5j3Cz4cSA/viewform";
+  var ENV_ENTRY = "entry.1158351253"; // 例: "entry.1234567890"
 
   var params = new URLSearchParams(window.location.search);
   var parts = [];
